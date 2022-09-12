@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+.landing{
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Silkscreen', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
