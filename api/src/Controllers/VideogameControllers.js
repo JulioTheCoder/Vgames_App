@@ -63,7 +63,7 @@ const postVideogame = async (req, res, next) =>{
   });
 
   await videogameCreate.addGenre(genreDB);//Vinculamos los respectivos generos a la nueva fila
-  
+  res.send("Videojuego creado exitosamente")
 
   //next();
 }
