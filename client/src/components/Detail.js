@@ -20,7 +20,7 @@ export default function Detail(props){
         myVideogame.length>0 ?
         <div>
           <h1>{myVideogame[0].name}</h1>
-          <img src={myVideogame[0].img} alt="Not Found Image" />
+          <img src={myVideogame[0].img} alt="Not Found Image" width={"300px"} height={"375px"}/>
           <h2>Generos: {myVideogame[0].generos.join(", ")}</h2>
           <h3>Lanzamiento: {myVideogame[0].released}</h3>
           <h3>Rating: {myVideogame[0].rating}</h3>
